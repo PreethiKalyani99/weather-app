@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+
+    <body>
+        <input placeholder="City name" id = "search">
+            <select id="units">
+                <option value="imperial">Fahrenheit</option>
+                <option value="metric">Celcius</option>
+            </select>
+            <button onclick="getWeather()">Get Weather!</button><br>
+            <div>
+                <img id = "image" style="border: radius 5px;"/>
+                <div id="output"></div>
+            </div>
+        </input>
+        <script src="index.js"></script>
+    </body>
+</html>
