@@ -1,0 +1,12 @@
+#image{
+    margin-left: 40%;
+    margin-top: 25px;
+}
+#output{
+    margin-top: 0px;
+    float: left;
+}
+body{
+    background: whitesmoke;
+    margin-left: 450px;
+}
