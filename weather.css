@@ -1,0 +1,21 @@
+#image{
+  margin-left: 30%;
+  margin-top: 25px;
+}
+#result{
+  margin-top: 0px;
+  float: left;
+}
+body{
+  background: whitesmoke;
+  margin-left: 450px;
+}
+button{
+  margin-left: 10px;
+}
+select{
+  margin-left: 10px;
+}
+label{
+  margin-right: 5px;
+}
