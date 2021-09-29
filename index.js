@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Weather from "./Weather";
+import CityNameandTemperatureSelector from './Weather';
+// import Name from "./arguments";
+
 
 class WeatherApp extends React.Component{
     render(){
-         return <Weather/>
+        return <CityNameandTemperatureSelector/>;
+        // return <Name/>
     }
 }
 ReactDOM.render(<WeatherApp/>,document.getElementById('root'));
